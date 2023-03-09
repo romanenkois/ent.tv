@@ -1,0 +1,33 @@
+:root {
+    --light: #f5f5f5;
+    --primary: #0eccd3;
+    --secondary: #014246;
+    --dark: #122b2b; 
+    --darker: #050808;
+}
+
+/* * {
+    outline: 1px red solid;
+}*/
+
+.container-fluid {
+    background-color: var(--darker);
+    color: var(--dark);
+}
+
+#menu {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+#menu img {
+    width: 100%;
+    max-width: 40px;
+    height: 100%;
+    max-height: 40px;
+}
+
+.menu-btn {
+    padding: 20px;
+    text-align: center;
+}
