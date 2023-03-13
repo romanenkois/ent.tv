@@ -19,10 +19,10 @@
                         <a class="menu-btn col-1 col-lg-12" href="index.html"><img src="imgs/logo.svg"/></a>
                         <div id="nav" class="col-10 col-lg-12">
                             <div class="row">
-                                <a class="col-1 col-lg-12 menu-btn" href="index.html"><img src="imgs/icon-nav-home.svg"/></a>
-                                <a class="col-1 col-lg-12 menu-btn" href="movies.html"><img src="imgs/icon-nav-movies.svg"></a>
-                                <a class="col-1 col-lg-12 menu-btn" href="tvseries.html"><img src="imgs/icon-nav-tv-series.svg"/></a>
-                                <a class="col-1 col-lg-12 menu-btn" href="bookmarks.html"><img src="imgs/icon-nav-bookmark.svg"/></a>
+                                <a class="col-2 col-lg-12 menu-btn" href="index.html"><img src="imgs/icon-nav-home.svg"/></a>
+                                <a class="col-2 col-lg-12 menu-btn" href="movies.html"><img src="imgs/icon-nav-movies.svg"></a>
+                                <a class="col-2 col-lg-12 menu-btn" href="tvseries.html"><img src="imgs/icon-nav-tv-series.svg"/></a>
+                                <a class="col-2 col-lg-12 menu-btn" href="bookmarks.html"><img src="imgs/icon-nav-bookmark.svg"/></a>
                             </div>
                         </div>
                         <a class="menu-btn col-1 col-lg-12" href="profile.html"><img src="imgs/image-avatar.png"/></a>
@@ -30,22 +30,28 @@
                 </div>
     
                 <div class="col-12 col-lg-11">
-                    <div id="search">
-                        сьорч
+                    <div id="search" class="content-container">
+                        <form>
+                            <img src="imgs/icon-search.svg"/>
+                            <input id="search-field" type="text" placeholder="Search for a movie or TV series"/>
+                        </form>
                     </div>
-                    <div id="trending" class="row">
-                        <p>trending</p>
-                        <div id="trending-content">
+                    <div id="trending" class="content-container">
+                        <p class="title">Trending</p>
+                        <div id="trending-content" class="row">
 
                         </div>
                     </div>
-                    <div id="content">
-                        
+                    <div class="content-container">
+                        <p class="title">Recomended for you</p>
+                        <div id="main-content">
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </body>
 
-    <script src="script.js"></script>
+    <script src="js/contentRender.js"></script>
 </html>
