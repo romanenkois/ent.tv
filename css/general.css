@@ -53,9 +53,31 @@ body {
     width: 100%;
     max-width: 500px;
 }
+.form-input:focus {
+    outline: none;
+    border: none;
+}
 
 .title {
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--light);
+}
+
+/* Movie thumbnails */
+
+.movie-render-frame {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.movie-info {
+    margin: 0.5rem 0rem;
+}
+
+.movie-name {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--light);
+    margin: 0.5rem 0rem;
 }
